@@ -1,0 +1,461 @@
+body{
+    background-color:rgb(209, 205, 205);
+}
+h1,p{
+    color:white;
+    font-size:1.5em;
+}
+
+.cont{
+    display:flex;
+    
+    justify-content:center;
+    align-items:center;
+   
+    height:100vh;
+    
+    
+
+}
+
+.premierrectangle{
+   
+    padding:1.8rem;
+    background-color:rgb(226, 102, 19);
+    
+    
+    
+    
+    
+}
+.premierrectangle button  {
+    border: none;
+    
+    outline: none;
+    
+    cursor: pointer;
+    border-radius: 30px;
+    color: rgb(226, 102, 19); 
+    width:50%;
+    height:2em;
+    font-size:1.5em;
+    font-weight:bold;
+    
+    margin-bottom:1em;
+}
+.deuxiemerectangle{
+    padding:1.8rem;
+    background-color:rgb(4, 97, 104);
+    
+   
+
+}
+.deuxiemerectangle button  {
+    border: none;
+    
+    outline: none;
+    
+    cursor: pointer;
+    border-radius: 30px;
+    color:  rgb(4, 97, 104);
+    width:60%;
+    width:50%;
+    height:2em;
+    font-size:1.5em;
+    font-weight:bold;
+    
+    margin-bottom:1em;
+}
+.troisiemerectangle{
+    padding:1.8rem;
+    background-color:rgb(15, 65, 58);
+    
+
+}
+.troisiemerectangle button  {
+    border: none;
+    
+    outline: none;
+    
+    cursor: pointer;
+    border-radius: 40px;
+    color:  rgb(15, 65, 58);;
+    width:60%;
+    width:50%;
+    height:2em;
+    font-size:1.5em;
+    
+    font-weight:bold;
+    
+    margin-bottom:1em;
+}
+
+
+@media screen and (max-width:576px){
+    body{
+        background-color:rgb(209, 205, 205);
+        font-family:"Calibri light","Century gothic","sans-serif";
+    }
+    h1,p{
+        color:white;
+        font-size:1.1em;
+    }
+    
+    .cont{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+       
+        height:190vh;
+        
+        margin:auto;
+
+    }
+    .premierrectangle{
+       
+        padding:2rem;
+        background-color:rgb(226, 102, 19);
+        
+        
+        border-radius:1em 1em 0 0;
+    }
+    .premierrectangle button  {
+        border: none;
+        
+        outline: none;
+        
+        cursor: pointer;
+        border-radius: 30px;
+        color: rgb(226, 102, 19); 
+        width:50%;
+        height:2.5em;
+        font-size:1em;
+        font-weight:bold;
+        
+        margin-bottom:1em;
+    }
+    .deuxiemerectangle{
+        padding:2rem;
+        background-color:rgb(4, 97, 104);
+        
+       
+
+    }
+    .deuxiemerectangle button  {
+        border: none;
+        
+        outline: none;
+        
+        cursor: pointer;
+        border-radius: 30px;
+        color:  rgb(4, 97, 104);
+        width:50%;
+        height:2.5em;
+        font-size:1em;
+        
+        margin-bottom:1em;
+    }
+    .troisiemerectangle{
+        padding:1.81rem;
+        background-color:rgb(15, 65, 58);
+        
+
+    }
+    .troisiemerectangle button  {
+        border: none;
+        
+        outline: none;
+        
+        cursor: pointer;
+        border-radius: 30px;
+        color:  rgb(15, 65, 58);;
+        width:50%;
+        height:2.5em;
+        font-size:1em;
+        
+        margin-bottom:1em;
+    }
+}
+@media screen and (min-width:577px) and (max-width:768px){
+    body{
+        background-color:rgb(209, 205, 205);
+    }
+    h1,p{
+        color:white;
+        font-size:1.8em;
+    }
+    
+    .cont{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+       
+        height:220vh;
+        
+        margin:auto;
+
+    }
+    
+    .premierrectangle{
+       
+        padding:1.8rem;
+        background-color:rgb(226, 102, 19);
+        
+        
+        
+        border-radius:1em 1em 0 0;
+    }
+    .premierrectangle button  {
+        border: none;
+        
+        outline: none;
+        
+        cursor: pointer;
+        border-radius: 30px;
+        color: rgb(226, 102, 19); 
+        width:60%;
+        height:2em;
+        font-size:1.8em;
+        font-weight:bold;
+        
+        margin-bottom:1em;
+    }
+    .deuxiemerectangle{
+        padding:1.95rem;
+        background-color:rgb(4, 97, 104);
+        
+       
+
+    }
+    .deuxiemerectangle button  {
+        border: none;
+        
+        outline: none;
+        
+        cursor: pointer;
+        border-radius: 30px;
+        color:  rgb(4, 97, 104);
+        width:60%;
+        height:2em;
+        font-size:1.8em;
+        font-weight:bold;
+        
+        margin-bottom:1em;
+    }
+    .troisiemerectangle{
+        padding:1.7rem;
+        background-color:rgb(15, 65, 58);
+        
+
+    }
+    .troisiemerectangle button  {
+        border: none;
+        
+        outline: none;
+        
+        cursor: pointer;
+        border-radius: 40px;
+        color:  rgb(15, 65, 58);;
+        width:60%;
+        height:2em;
+        font-size:1.8em;
+        
+        font-weight:bold;
+        
+        margin-bottom:1em;
+    }
+
+}
+@media screen and (min-width:769px) and (max-width:992px){
+    body{
+        background-color:rgb(209, 205, 205);
+    }
+    h1,p{
+        color:white;
+        font-size:1.8em;
+    }
+    
+    .cont{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+       
+        height:230vh;
+        
+        margin:auto;
+
+    }
+    
+    .premierrectangle{
+       
+        padding:1.8rem;
+        background-color:rgb(226, 102, 19);
+        
+        
+        
+        
+        border-radius:1em 1em 0 0;
+    }
+    .premierrectangle button  {
+        border: none;
+        
+        outline: none;
+        
+        cursor: pointer;
+        border-radius: 30px;
+        color: rgb(226, 102, 19); 
+        width:60%;
+        height:2em;
+        font-size:1.9em;
+        font-weight:bold;
+        
+        margin-bottom:1em;
+    }
+    .deuxiemerectangle{
+        padding:1.95rem;
+        background-color:rgb(4, 97, 104);
+        
+       
+
+    }
+    .deuxiemerectangle button  {
+        border: none;
+        
+        outline: none;
+        
+        cursor: pointer;
+        border-radius: 30px;
+        color:  rgb(4, 97, 104);
+        width:60%;
+        height:2em;
+        font-size:1.9em;
+        font-weight:bold;
+        
+        margin-bottom:1em;
+    }
+    .troisiemerectangle{
+        padding:1.7rem;
+        background-color:rgb(15, 65, 58);
+        
+
+    }
+    .troisiemerectangle button  {
+        border: none;
+        
+        outline: none;
+        
+        cursor: pointer;
+        border-radius: 40px;
+        color:  rgb(15, 65, 58);;
+        width:60%;
+        height:2em;
+        font-size:1.9em;
+        
+        font-weight:bold;
+        
+        margin-bottom:1em;
+    }
+
+}
+@media screen and (min-width:993px) and (max-width:1200px){
+    body{
+        background-color:rgb(209, 205, 205);
+    }
+    h1,p{
+        color:white;
+        font-size:2.6em;
+    }
+    
+    .cont{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+       
+        height:200vh;
+        
+        margin:auto;
+
+    }
+    
+    .premierrectangle{
+       
+        padding:1.8rem;
+        background-color:rgb(226, 102, 19);
+        
+        
+        
+        
+        border-radius:1em 1em 0 0;
+    }
+    .premierrectangle button  {
+        border: none;
+        
+        outline: none;
+        
+        cursor: pointer;
+        border-radius: 30px;
+        color: rgb(226, 102, 19); 
+        width:60%;
+        height:2em;
+        font-size:1.9em;
+        font-weight:bold;
+        
+        margin-bottom:1em;
+    }
+    .deuxiemerectangle{
+        padding:1.95rem;
+        background-color:rgb(4, 97, 104);
+        
+       
+
+    }
+    .deuxiemerectangle button  {
+        border: none;
+        
+        outline: none;
+        
+        cursor: pointer;
+        border-radius: 30px;
+        color:  rgb(4, 97, 104);
+        width:60%;
+        height:2em;
+        font-size:1.9em;
+        font-weight:bold;
+        
+        margin-bottom:1em;
+    }
+    .troisiemerectangle{
+        padding:1.7rem;
+        background-color:rgb(15, 65, 58);
+        
+
+    }
+    .troisiemerectangle button  {
+        border: none;
+        
+        outline: none;
+        
+        cursor: pointer;
+        border-radius: 40px;
+        color:  rgb(15, 65, 58);;
+        width:60%;
+        height:2em;
+        font-size:1.9em;
+        
+        font-weight:bold;
+        
+        margin-bottom:1em;
+    }
+    
+
+}
+
+    
+        
+    
+
+
